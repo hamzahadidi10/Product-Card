@@ -260,3 +260,91 @@ body{
 .links a:hover svg {
     transform: scale(1.1);
 }
+.SG-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    padding: 20px;
+    text-align: center;
+    background-color: #202222;
+    margin: 0px;
+    
+}
+form{
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #5c7f76;
+    width: 500px;
+    text-align: left;
+    
+    
+}
+#signup{
+    padding: 0;
+    margin-top: 0;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    transition: color 0.3s ease;
+}
+#signup:hover{
+    color: #374d4d;
+}
+
+form label{
+    font-size: 1.25em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.buttns{
+    align-items: center;
+}
+#Firstname , #Lastname ,#Email , #Phone , #Password, #Birthday {
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+}
+#Firstname:hover{
+    background-color: hsl(199, 61%, 70%);
+}
+#Lastname:hover{
+    background-color: hsl(199, 61%, 70%);
+}
+#Email:hover{
+    background-color: hsl(199, 61%, 70%);
+}
+#Phone:hover{
+    background-color: hsl(199, 61%, 70%);
+}
+#Password:hover{
+    background-color: hsl(199, 61%, 70%);
+}
+#Birthday:hover{
+    background-color: hsl(199, 61%, 70%);
+}
+#submitbtn{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#e6e8a8;
+    background-color: #00ad2f;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+#submitbtn:hover{
+    color: #0d0e0e;
+    background-color: #00f341;
+}
+#resetbtn{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#e6e8a8;
+    background-color: rgb(136, 74, 74);
+    transition:  background-color color 0.3s ease;
+    transition:  color 0.3s ease;
+}
+#resetbtn:hover{
+    color: #0d0e0e;
+    background-color: rgb(255, 0, 0) ;
+}
