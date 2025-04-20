@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - SHOOZY STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1><a href="index.html" id="strname">SHOOZY STORE</a></h1>
+        <ul id="checks">
+            <li class="places"><a href="index.html">HOME</a></li>
+            <li class="places"><a href="shoes.html">SHOP</a></li>
+            <li class="places"><a href="signin.html">SIGN UP</a></li>
+            <li class="places"><a href="about.html">ABOUT</a></li>
+            <li class="places"><a href="cart.html">CART <span class="cart-counter">0</span></a></li>
+        </ul>
+    </nav>
+    <div class="cart-header">
+        <h1>Your Shopping Cart</h1>
+    </div>
+    <div class="cart-container">
+        <div class="cart-content">
+            <div class="cart-items" id="cartItems">
+                <div class="empty-cart">
+
+                    <h2>Your cart is empty</h2>
+                    <p>Looks like you haven't added anything to your cart yet</p>
+                    <a href="shoes.html" class="continue-shopping-btn">Continue Shopping</a>
+                </div>
+            </div>
+            
+            <div class="cart-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-details">
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span id="subtotal">$0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping</span>
+                        <span id="shipping">FREE</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span id="total">$0.00</span>
+                    </div>
+                </div>
+                <button id="checkoutBtn" class="checkout-btn" >Proceed to Checkout</button>
+                <p class="secure-checkout">
+                    <i class="lock-icon">🔒</i> Secure checkout
+                </p>
+                <div class="payment-methods">
+                    <img src="visa.jpg" alt="Visa">
+                    <img src="mastercard.jpg" alt="Mastercard">
+                    <img src="paypal.jpg" alt="PayPal">
+                    <img src="applepay.jpg" alt="Apple Pay">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="cpr">Copyright &copy; 2025 SHOOZY STORE . All rights reserved.</p>
+    </footer>
+
+    <script src="shoes.js"></script>
+</body>
+</html>
