@@ -1,0 +1,77 @@
+.A-container{
+    height: 930px;
+    background-color: #202222;
+    padding-top: 10px;
+    align-items: center;
+}
+#banner{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#strb{
+    color: white;
+    text-align: center;
+    font-size: 1.75em;
+    margin-left: 25px;
+}
+.story{
+    background-color: #ffffff;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 11px;
+    position: relative;
+    
+}
+.story p{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#whych, #contactus{
+    color: white;
+    text-align: center;
+    font-size: 1.75em;
+    margin-left: 25px;
+}
+.whychoose{
+    background-color: #ffffff;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 11px;
+   
+    
+    
+}
+.whychoose pre{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.links{
+    background-color: #ffffff;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 11px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.links svg {
+    transition: transform 0.3s;
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+.links a:hover svg {
+    transform: scale(1.1);
+}

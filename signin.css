@@ -1,0 +1,93 @@
+.SG-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    min-height: 90vh;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    background-color: #202222;
+   
+}
+
+form{
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    width: 400px;
+    text-align: left;
+    
+    
+}
+#signup{
+    padding: 0;
+    margin-top: 0;
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(0, 0%, 100%);
+    transition: color 0.3s ease;
+    
+}
+
+form label{
+    font-size: 1.25em;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.buttns{
+    align-items: center;
+}
+#Firstname , #Lastname ,#Email , #Phone , #Password, #Birthday {
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+#Firstname:hover{
+    background-color: hsl(0, 2%, 87%);
+}
+#Lastname:hover{
+    background-color: hsl(0, 2%, 87%);
+}
+#Email:hover{
+    background-color: hsl(0, 2%, 87%);
+}
+#Phone:hover{
+    background-color: hsl(0, 2%, 87%);
+}
+#Password:hover{
+    background-color: hsl(0, 2%, 87%);
+}
+#Birthday:hover{
+    background-color: hsl(0, 2%, 87%);
+}
+#submitbtn{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    border: none;
+    border-radius: 10px;
+    background-color: #00ad2f;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+}
+#submitbtn:hover{
+    color: #000000;
+    background-color: #19d24a;
+}
+#resetbtn{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    background-color: hsl(0, 88%, 51%);
+    transition:  background-color color 0.3s ease;
+    transition:  color 0.3s ease;
+    border: none;
+    border-radius: 10px;
+}
+#resetbtn:hover{
+    color: #000000;
+    background-color: hsl(0, 100%, 50%) ;
+}
